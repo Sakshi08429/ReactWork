@@ -143,7 +143,7 @@ async getFilePreview(fileId){
         return await this.bucket.getFilePreview(
             confg.appwriteBucketId,
             fileId,
-        );
+        )
         return true;
     }
     catch(error){
